@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather dashboard</title>
+    <link rel="stylesheet" type= "text/css" href = "style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+
+     
+</head>
+
+<body>
+  <header class="container-fluid text-center text-white bg-dark p-2">
+    <h1>Weather Dashboard</h1>
+  </header>
+
+  <!-- Search column -->
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="col-lg-3 bg-light">
+        <h4 class="mt-3 mx-2">Search for a City:</h4>
+        <form class="form-inline form-group">
+          <input type="text" class="form-control" id="search-value" />
+          <button type="submit" class="btn btn-primary" id="search-button">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+        <!-- listing searched cities inside ul  -->
+        <ul class="list-group" id="history"></ul>
+      </aside>
+
+      <!--display column-->
+      <div class="col-lg-9">
+        <div class="row" id="current"></div>
+        <div class="row" id="fiveDay"></div>
+        <div class="row" id="forecast"></div>
+      </div>
+
+    </div>
+
+  </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+    
+</body> 
+</html>
+
+
+
+
+ 
+  
