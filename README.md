@@ -5,7 +5,6 @@ The information about weather is getting by using OpenWeather API.
 
 ## Acceptance Criteria
 
-```
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
 THEN I am presented with current and future conditions for that city and that city is added to the search history
@@ -18,10 +17,10 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 WHEN I open the weather dashboard
-THEN I am presented with the last searched city forecast
+THEN I am presented with the last searched city forecast.
 
 
-###How application is look like :
+## How application is look like :
 
 <img width="1812" alt="Screen Shot 2020-06-18 at 9 24 23 PM" src="https://user-images.githubusercontent.com/63271349/85090285-5a8d7c80-b1aa-11ea-9aed-3e47b4e0ca73.png">
 
